@@ -1,0 +1,28 @@
+name: ccm_bangladesh
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - geopandas
+  - libpysal
+  - imbalanced-learn
+  - shapely
+  - statsmodels
+  - pyreadstat
+  - folium
+  - xgboost=1.6.2
+  - pip
+  - pip:
+      - psycopg2==2.9.9
+      - pymysql==1.1.1
+      - pyodbc==5.1.0
+      - python-hostlist==1.23.0
+      - python-swiftclient==4.6.0
+      - sci==0.1.7
+      - shap==0.46.0
