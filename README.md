@@ -15,6 +15,18 @@ It provides the code, processed data, and environment specification needed to re
 - `functions_transforms.py` — Functions for transformations
 - `variable_dict.json` — Dictonary with long variable names
 
+## Data and Results
+
+Due to file size limitations, the **full results folder** (including prediction outputs, SHAP values) is hosted externally on Google Drive:
+
+[Access the full results and data here](https://drive.google.com/drive/folders/1gSQVFM4J6H0T28OY1lSkfxgtXLe9LgUj?usp=sharing)
+
+This folder is required to reproduce the figures **without re-training the models**, which can take several hours.  
+The folder includes:
+- `predictions/`
+- `features/shapvals`
+
+
 ## Reproducing the Analysis
 
 1. **Create the environment**
